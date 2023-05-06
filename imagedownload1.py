@@ -34,4 +34,4 @@ for index, row in df.iterrows():
         df.at[index,'Resolution'] = str(width) + "x" + str(height)
         #df.at[index, 'Type'] = img.format
         print(df.at[index,'URL'], df.at[index,'jpeg'], df.at[index,'Resolution'])
-    df.to_excel('images_batch1.xlsx',index=False)
+        df.to_excel('images_batch1.xlsx',index=False)
